@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body {margin:0 auto;font-family:Arial;font-size:11px;line-height:12px}
+#page-wrapper {margin:0 auto; width:1024px;}
+
+
+/* classes */
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.clearBoth{clear:both;}
+.linkPointer{ cursor:pointer;} 
+.bmw-titles{ font-family:Arial; font-size:20px; line-height:20px;text-transform:lowercase; font-weight:bold;text-transform:uppercase; letter-spacing:-1px;}
+.bmw-titles-step{ font-family:Arial; font-size:14px; line-height:14px;text-transform:lowercase;font-weight:bold; text-transform:uppercase; letter-spacing:-1px;}
+.body-footer{ color:#666;}
+.bullet-list li{ }
+.press-items{width:233px; height:70px; margin: 15px 15px 0 0;}
+.iphone-nav-download{ background:url(../images/download-apple-nav-icon.jpg) no-repeat; width:27px; height:24px; right:53px; top:40px; position:relative;}
+.android-nav-download{ background:url(../images/download-android-nav-icon.jpg) no-repeat; width:26px; height:24px; right:-1px;top:40px; position:relative;}
+.facebook-nav-follow{ background:url(../images/follow-facebook-nav-icon.jpg) no-repeat; width:29px; height:27px; right:71px; top:40px; position:relative;}
+.twitter-nav-follow{ background:url(../images/follow-twitter-nav-icon.jpg) no-repeat; width:29px; height:27px; right:13px;top:40px; position:relative;}
+.iphone-download{background:url(../images/download-apple_1024.jpg) no-repeat;width:82px; height:27px; margin:0 9px 0 0; cursor:pointer;}
+.android-download{background:url(../images/download-android_1024.jpg) no-repeat;width:90px; height:27px; cursor:pointer;}
+.download-other{height:27px;}
+.download-ios{height:27px;display:none;}
+.download-android{height:27px;display:none;}
+
+/* margin bottoms */
+.mb6{margin-bottom:6px;}.mb10{margin-bottom:10px;}.mb15{margin-bottom:15px;}.mb20{margin-bottom:20px;}.mb25{margin-bottom:25px;}.mb40{margin-bottom:40px;}.mb50{margin-bottom:50px;}
+
+/* ID's */
+#logo{ background:url(../images/logo_1024.jpg) no-repeat; position:relative;width:187px;height:96px;left:763px;}
+#landing-page{ width:980px;margin:0 auto;}
+#landing-page-img{background:url(../images/main-image_1024.jpg) no-repeat;width:980px;height:349px;}
+#how-to-earn-page{ width:980px;margin:0 auto; }
+#about-page{ width:980px;margin:0 auto;}
+#about-page-img{background:url(../images/about-image_1024.jpg) no-repeat;width:980px;height:474px;}
+/* top nav */
+#desktop-nav{background:url(../images/nav-bg.jpg) repeat;margin:0 auto;width:980px;height:96px;}
+#desktop-nav ul{margin:0 0 0 21px;}
+#desktop-nav li{color:#FFF;line-height:110px;}
+#nav-item-earn{width:139px;height:80px;}
+#nav-item-about{width:121px;height:80px;}
+#nav-item-download{width:187px;height:80px;}
+#nav-item-follow{width:165px;height:80px;}
+#nav-item-dealers{width:153px;height:80px;}
+/* sidenav */
+#desktop-fixed-nav{position:fixed;right:20px; top:150px;}
+#desktop-fixed-nav li{ width:55px;}
+#navFixed-item-up{background:url(../images/sidenav-up.jpg) no-repeat;width:55px; height:27px;}
+#navFixed-item-earn{background:url(../images/sidenav-earn.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-about{background:url(../images/sidenav-about.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-download-apple{background:url(../images/sidenav-download-apple.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-download-android{background:url(../images/sidenav-download-apple.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-facebook{background:url(../images/sidenav-facebook.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-twitter{background:url(../images/sidenav-twitter.jpg) no-repeat;width:55px; height:51px;}
+#navFixed-item-down{background:url(../images/sidenav-down.jpg) no-repeat;width:55px; height:27px;}
+/* dealer page */
+#dealer-page{ width:980px;margin:0 auto;}
+#dealer-video{}
+#dealer-steps{ width:340px;margin:0 0 37px 27px;}
+#dealer-iphone1-img{background:url(../images/iphone-earn1_1024.jpg) no-repeat;width:164px; height:340px;}
+#dealer-iphone2-img{background:url(../images/iphone-earn2_1024.jpg) no-repeat;width:164px; height:340px;}
+
+/*earn page */
+#earn-steps{ width:340px;margin:0 0 37px 27px;}
+#earn-iphone1-img{background:url(../images/iphone-earn1_1024.jpg) no-repeat;width:164px; height:340px;}
+#earn-iphone2-img{background:url(../images/iphone-earn2_1024.jpg) no-repeat;width:164px; height:340px;}
+
+/* footer */
+#footer{background:url(../images/footer.jpg) no-repeat; width:986px; height:32px; position:relative;margin:0 auto;}
+#left-footer-text{margin:10px 0 0 20px;}
+#right-footer-text{ margin:10px 20px 0 0;}
+/* not used in this size */
+#mobile-fixed-nav{display:none;}
+

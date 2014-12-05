@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+body{margin:0;}
+h1{font-size:25px; margin:0;}
+a{color:#3c75bb;}
+#mainContainer{ background:url(images/bgImage_1024.png) no-repeat; width:1024px; height:700px;margin:0 auto;}
+#textArea{font-family:Arial, Gadget, sans-serif; width:1024px; height:166px;top:553px; position:relative; margin:0 0 0 40px;}
+
+#appleBtn{ background:url(images/appStore_1024.png) no-repeat; float:left; width:82px; height:27px; margin:10px 0 0 17px;}
+#droidBtn{ background:url(images/droidMarket_1024.png) no-repeat; float:left; width:90px; height:27px;margin:10px 0 0 17px;}
+#footer{ font-size:12px;float:none;margin:20px 0 0 17px;}
+.bodyText{font-size:16px; margin:2px 0 0 17px; width:850px; line-height:17px;}
+
+
+
